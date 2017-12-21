@@ -1,0 +1,2 @@
+INSERT INTO `dede_plus` VALUES('27','友情链接模块','<m:item name=\'友情链接\' link=\'friendlink_main.php\' rank=\'plus_友情链接\' target=\'main\' />','','织梦团队','1','');
+INSERT INTO `dede_plus` VALUES('44','XML地图','<m:item name=\'XML地图\' link=\'map.php\' rank=\'plus_starget=\'main\' />','','华西网络','1','map.php');

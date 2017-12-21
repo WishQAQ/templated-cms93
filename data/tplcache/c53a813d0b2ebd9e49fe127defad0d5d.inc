@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" target="_blank"><img src="/images/honor.jpg" alt="[field:typename/]" height="290" width="206"></a>

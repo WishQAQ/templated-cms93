@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" title="[field:typename/]" target="_blank">更多>></a></span><a href="[field:typelink/]" title="印刷新闻" target="_blank">[field:typename/]</a>

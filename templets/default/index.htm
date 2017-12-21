@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{dede:global.cfg_webname/}</title>
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <link href="/images/css.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    <script type="text/javascript">		
+
+		if (window.ActiveXObject) {
+
+		  var ua = navigator.userAgent.toLowerCase();
+
+		  var ie=ua.match(/msie ([\d.]+)/)[1]
+
+		  if(ie==6.0){ EvPNG.fix('.xmAcce_con ul li img');}
+
+		}
+      
+
+        $(function () {   		
+
+            point("#point-1",10000);
+
+            point("#point-2",2500);
+
+            point("#point-3",8000);
+
+            point("#point-4",8000);
+
+            $(".xmAcce_con ul li").mouseover(function () {
+
+                $(this).css("border-color", "#ccc");
+
+            }).mouseout(function () { $(this).css("border-color", "#fff"); });
+
+            $(".ry_scroll").Scroll({ line: 2, speed: 1500, timer: 5000 });
+
+        });
+        
+
+    </script>
+    </head>
+    <body>
+{dede:include filename='head.htm'/}
+<div class="common pt_10 clearfix">
+      <div class="left p_left">
+    <div class="lan-1"> <span>{dede:type typeid='40'}<a href="[field:typelink/]" title="[field:typename/]">更多>></a></span><a href="[field:typelink/]" title="[field:typename/]">[field:typename/]</a>{/dede:type}</div>
+    <div class="bgF4 mt5 point_con clearfix">
+          <ul class="ul-1-p">
+        {dede:channel type='son' noself='yes' typeid='40' }
+        <li><a href="[field:typelink/]" title="[field:typename/]" target="_blank">[field:typename/]</a></li>
+        {/dede:channel}
+      </ul>
+        </div>
+    <div class="lan-1 mt10"> <span>{dede:type typeid='183'}<a href="[field:typelink/]" title="[field:typename/]">更多>></a></span><a href="[field:typelink/]" title="[field:typename/]">[field:typename/]</a>{/dede:type}</div>
+    <div class=" mt5 clearfix"> {dede:type typeid='183'}<a href="[field:typelink/]" target="_blank"><img src="/images/honor.jpg" alt="[field:typename/]" height="290" width="206"></a>{/dede:type}</div>
+  </div>
+      <div class="right hdp_p">
+    <div id="point-2" class="point">
+          <ul style="left: 0px; width: 2968px;">
+        <li><a href="/" target="_blank"> <img src="/images/banner1.jpg" alt="印刷幻灯片1"></a> </li>
+        <li><a href="/" target="_blank"> <img src="/images/k_03.jpg" alt="印刷幻灯片2"></a> </li>
+        <li><a href="/" target="_blank"> <img src="/images/n_03.jpg" alt="印刷幻灯片3"></a> </li>
+      </ul>
+        </div>
+    <div class="clearfix">
+          <div class="left w_523">
+        <div class="lan-1 mt10"> <span>{dede:type typeid='112'}<a href="[field:typelink/]" title="[field:typename/]" target="_blank">更多>></a></span><a href="[field:typelink/]" title="印刷新闻" target="_blank">[field:typename/]</a>{/dede:type}</div>
+        <div class="clearfix pt_5">
+              <div class="left bgF4 hyzx">
+            <dl class="news-list-dl">
+                  <dt><span>{dede:type typeid='133'}<a href="[field:typelink/]" title="[field:typename/]" target="_blank">更多>></a></span><a href="[field:typelink/]" title="[field:typename/]" target="_blank">[field:typename/]</a>{/dede:type}</dt>
+                  {dede:arclist typeid='133' row='10' titlelen='36'}
+                  <dd> <span>[field:pubdate function="MyDate('m-d',@me)"/]</span><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title/]</a></dd>
+                  {/dede:arclist}
+                </dl>
+          </div>
+              <div class="right bgF4 yscs">
+            <dl class="news-list-dl">
+                  <dt><span>{dede:type typeid='163'}<a href="[field:typelink/]" title="[field:typename/]" target="_blank">更多>></a></span><a href="[field:typelink/]" title="[field:typename/]" target="_blank">[field:typename/]</a>{/dede:type}</dt>
+                  {dede:arclist typeid='163' row='10' titlelen='36'}
+                  <dd> <span>[field:pubdate function="MyDate('m-d',@me)"/]</span><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title/]</a></dd>
+                  {/dede:arclist}
+                </dl>
+          </div>
+            </div>
+      </div>
+          <div class="right w_206">
+        <div class="lan-1 mt10"> <span>{dede:type typeid='169'}<a href="[field:typelink/]" title="" target="_blank">更多>></a></span><a href="[field:typelink/]" title="[field:typename/]" target="_blank">[field:typename/]</a>{/dede:type}</div>
+        <div class="mt5 clearfix"> {dede:type typeid='169'}<a href="[field:typelink/]" target="_blank"><img src="/images/k_17.jpg" alt="设计团队" border="0" height="290" width="206"></a>{/dede:type}</div>
+      </div>
+        </div>
+  </div>
+    </div>
+<div class="common">
+      <div class="lan-1 mt10"> <span>{dede:type typeid='40'}<a href="[field:typelink/]" title="[field:typename/]">更多>></a></span><a href="[field:typelink/]" title="[field:typename/]">最新印刷案例</a>{/dede:type}</div>
+      <div class="clearfix mt10 w_960_h">
+    <ul class="img-ul">
+          {dede:arclist typeid='40' row='12' orderby=rand type='.image'}
+          <li>
+        <div class="al_img"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="235" height="174" /></a></div>
+        <div class="al_t"><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title/]</a></div>
+        <div class="al_sx"><span class="c_8e8e8e">印刷类别：[field:typename/]　</span> <span class="c_8e8e8e ml_10">点击：(<script src="/plus/count.php?view=yes&aid=[field:id/]&mid=1" type='text/javascript' language="javascript"></script>)</span></div>
+      </li>
+          {/dede:arclist}
+        </ul>
+  </div>
+    </div>
+<div class="lan-2 mt15">
+      <div class="common"> 友情链接</div>
+    </div>
+<div class="common link clearfix p_10">
+      <ul>
+    {dede:flink row='24' type='text' titlelen="24" typeid="0"} [field:link /] {/dede:flink}
+  </ul>
+    </div>
+{dede:include filename='footer.htm'/}
+</div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+INSERT INTO `dede_sys_module` VALUES('4','b437d85a7a7bc778c9c79b5ec36ab9aa','友情链接','','','0','');
+INSERT INTO `dede_sys_module` VALUES('7','d3cf7d981c1ca63f25c10605545bf8f2','XML地图','','','0','');

@@ -1,0 +1,12 @@
+INSERT INTO `dede_taglist` VALUES('1','271','0','26','新娘婚前要如何保养');
+INSERT INTO `dede_taglist` VALUES('2','378','0','30','龙岗工作室 配饰搭配');
+INSERT INTO `dede_taglist` VALUES('3','380','0','30','龙岗影楼 帽子搭配');
+INSERT INTO `dede_taglist` VALUES('4','381','0','30','龙岗工作室 红包贺词');
+INSERT INTO `dede_taglist` VALUES('5','382','0','30','龙岗影楼 豪华聘礼');
+INSERT INTO `dede_taglist` VALUES('6','606','0','111','网站建设');
+INSERT INTO `dede_taglist` VALUES('7','606','0','111','网站制作');
+INSERT INTO `dede_taglist` VALUES('8','650','0','133','条码');
+INSERT INTO `dede_taglist` VALUES('9','650','0','133','打印机');
+INSERT INTO `dede_taglist` VALUES('10','652','0','133','碳带');
+INSERT INTO `dede_taglist` VALUES('11','652','0','133','磁带');
+INSERT INTO `dede_taglist` VALUES('12','681','0','133','饮料');

@@ -1,0 +1,6 @@
+INSERT INTO `dede_asktype` VALUES('1','阳痿','0','0','0','0');
+INSERT INTO `dede_asktype` VALUES('2','早泄','0','0','0','0');
+INSERT INTO `dede_asktype` VALUES('3','勃起功能障碍','0','0','0','0');
+INSERT INTO `dede_asktype` VALUES('4','不射精','0','0','0','0');
+INSERT INTO `dede_asktype` VALUES('5','逆行射精','0','0','0','0');
+INSERT INTO `dede_asktype` VALUES('6','射精延迟','0','0','0','0');
